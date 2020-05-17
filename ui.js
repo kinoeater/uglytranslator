@@ -14,24 +14,13 @@ const langPictures = document.getElementById("row1");
 
 langPictures.innerHTML = "";
 langPictures.innerHTML = ` 
-<div class="col-sm-6"><img src="img/${newFirstLanguage}.jpg" ></div>
-<div class="col-sm-6 "><img src="img/${newSecondLanguage}.jpg" ></div>
-
+<div class="card"><img src="img/${newFirstLanguage}.jpg" ></div>
+<div class="card"><img src="img/${newSecondLanguage}.jpg" ></div>
 `     
-
-        // const filmList = document.querySelector("#films"); // tbody kısmı, bunun altına listeler geliyor
-        // filmList.innerHTML += `
-        
-        // <tr class="film-entry">
-        //                                         <td><img src="${newFilm.url}" class="img-fluid img-thumbnail"></td>
-        //                                         <td>${newFilm.title}</td>
-        //                                         <td>${newFilm.director}</td>
-        //                                         <td><a href="#" id = "delete-film" class = "btn btn-danger">Filmi Sil</a></td>
-        //                                       </tr>
-        
-        // `;
     }
-    setSecondLanguagePicture(newSecondLanguage){}
+   
 
+    // <div class="card"><img src="img/tr.jpg" ></div>
+    // <div class="card"><img src="img/de.jpg" ></div>
 
 }

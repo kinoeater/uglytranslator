@@ -1,23 +1,18 @@
 body {
   background-color: coral;
 }
-.row {
-    display: flex;
-    align-items: stretch;
+#row1 {
+   
     background-color: #a04168;
     margin: 2rem;
     padding: 2rem;
   }
-  
-img {
-display: flex;
-justify-content: center;
-margin: 2rem;
-align-items: center;
-padding: 1rem;
 
-  
-}
+  img {
+    margin: 1rem;
+    height: 13rem;
+    border-radius: 15%;
+  }
   textarea {
       
     width: 100%;
@@ -35,10 +30,3 @@ padding: 1rem;
       background-color: rgb(69, 143, 143);
   }
 
-  img {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 13rem;
-    border-radius: 15%;
-  }

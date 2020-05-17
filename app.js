@@ -12,11 +12,12 @@ eventListeners();
 
 function eventListeners() {
 
-    translateButton.addEventListener("click",getLanguages);
-    translateButton.addEventListener("click",getLanguages);
+    translateButton.addEventListener("click",updateLangEelements);
+    translateButton.addEventListener("click",updateLangEelements);
     translateButton.addEventListener("click",translateSentence);
-    lang1.onchange =  getLanguages;
-    lang2.onchange =  getLanguages;  
+    lang1.onchange =  updateLangEelements;
+    lang2.onchange =  updateLangEelements;  
+    
 
 }
 
@@ -36,7 +37,7 @@ function eventListeners() {
 } 
 
 
-function getLanguages() {
+function updateLangEelements() {
 
     const newFirstLanguage = lang1.options[lang1.selectedIndex].value;  
     const newSecondLanguage = lang2.options[lang2.selectedIndex].value;  

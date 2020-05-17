@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!-- Telefon -->
+    <link rel="stylesheet"  media="(max-width:500px)" href="css/mobile.css">
     <title>Document</title>
 </head>
 <body>
 <div class="container">
-    <h1>Yerli ve Milli Dijital Tercüman</h1>
+ <header>
+   <h1>Yerli ve Milli Tercüman</h1>
+   <h2>The Ugly Translator</h2>
+   <h3>Yes, Ugly but it works!</h3>
+   <h4>Reminds me of someone...</h4>
+ </header>  
     
     <div class="row" id="row1">
-      <div class="col-sm-6 resim"><img src="img/de.jpg" ></div>
-      <div class="col-sm-6 resim"><img src="img/tr.jpg" ></div>
-    </div>
+      <div class="card"><img src="img/tr.jpg" ></div>
+      <div class="card"><img src="img/de.jpg" ></div>
+      </div>
     <div class="row">
    
            <div class="col-sm-6">
@@ -45,14 +54,17 @@
           </div>
         </div>
 
+    
+
+      </div>
+      <div >
         <div class="col-sm-12">
-            <div class="card">
-              <div class="card-body">
-                <a id="cevir" class="btn btn-primary col-sm-12 font-weight-bold">Translate</a>
-              </div>
+          <div class="card">
+            <div class="card-body">
+              <a id="cevir" class="btn btn-primary col-sm-12 font-weight-bold">Translate</a>
             </div>
           </div>
-
+        </div>
       </div>
       <footer>Ugliest translator ever... 
         Powered by Yandex.. sorry yandi.. I'll do it better by time..
