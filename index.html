@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1>Yerli ve Milli Dijital Tercüman</h1>
+    
+    <div class="row" id="row1">
+      <div class="col-sm-6 resim"><img src="img/de.jpg" ></div>
+      <div class="col-sm-6 resim"><img src="img/tr.jpg" ></div>
+    </div>
+    <div class="row">
+   
+           <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+
+              <textarea name="" id="textarea1" cols="30" rows="10"></textarea>
+              <span><select id="langulage1">
+                  <option value="tr">Türkçe</option>
+                  <option value="en">İngilizce</option>
+                  <option value="de">Almanca</option>
+              </select></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+                <textarea name="" id="textarea2" cols="30" rows="10"></textarea>
+                <form action=""></form>
+                <span><select id="langulage2">
+                    <option value="de">Almanca</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="en">İngilizce</option>
+                </select></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <a id="cevir" class="btn btn-primary col-sm-12 font-weight-bold">Translate</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      <footer>Ugliest translator ever... 
+        Powered by Yandex.. sorry yandi.. I'll do it better by time..
+      </footer>
+    
+</div>
+<script src="ui.js"></script>
+<script src="translate.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
